@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/23" xmlns:fx="http://javafx.com/fxml/1" fx:controller="co.edu.uniquindio.preparcil2.restaurante.viewController.ProductViewController">
+    <children>
+        <TableView fx:id="tbProducts" layoutX="143.0" layoutY="56.0" prefHeight="217.0" prefWidth="315.0">
+            <columns>
+                <TableColumn fx:id="tbColCodeP" prefWidth="75.0" text="Code" />
+                <TableColumn fx:id="tbColNameP" prefWidth="140.0" text="Name" />
+                <TableColumn fx:id="tbColPrice" prefWidth="100.0" text="Price" />
+            </columns>
+        </TableView>
+        <Label layoutX="254.0" layoutY="14.0" text="Table Products">
+            <font>
+                <Font name="System Bold" size="13.0" />
+            </font>
+        </Label>
+        <Separator layoutY="42.0" prefWidth="600.0" />
+    </children>
+</AnchorPane>

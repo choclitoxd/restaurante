@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="17.0.12" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="co.edu.uniquindio.preparcil2.restaurante.model.Order">
+    <void property="code">
+     <int>0</int>
+    </void>
+    <void property="costumer">
+     <object class="co.edu.uniquindio.preparcil2.restaurante.model.Costumer">
+      <void property="code">
+       <int>2</int>
+      </void>
+      <void property="id">
+       <string>1012345679</string>
+      </void>
+      <void property="identificationType">
+       <string>Cédula de Ciudadanía</string>
+      </void>
+      <void property="lastName">
+       <string>González Ramírez</string>
+      </void>
+      <void property="name">
+       <string>María</string>
+      </void>
+      <void property="phone">
+       <string>3145678901</string>
+      </void>
+     </object>
+    </void>
+    <void property="dateOrder">
+     <object class="java.util.Date">
+      <long>1728363600000</long>
+     </object>
+    </void>
+    <void property="total">
+     <double>15.0</double>
+    </void>
+   </object>
+  </void>
+ </object>`
+</java>

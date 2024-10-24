@@ -1,0 +1,10 @@
+001#Hamburguesa Clásica#12.50
+002#Pizza Margarita#15.00
+003#Ensalada César#8.00
+004#Sopa de Tomate#6.50
+005#Tacos al Pastor#10.00
+006#Lasaña de Carne#14.00
+007#Sushi Roll California#18.00
+008#Pollo a la Parrilla#13.50
+009#Spaghetti a la Boloñesa#12.00
+010#Postre Tiramisú#7.50
